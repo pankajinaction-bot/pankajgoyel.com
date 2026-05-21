@@ -3,71 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PANKAJ | Creative Director & Tech Visionary</title>
+    <title>Pankaj Goel | Filmmaker • Author • Founder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!-- Using Baskerville for a classic, professional feel -->
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <nav>
-        <div class="nav-container">
-            <!-- Your logo is now circular per your requirements -->
-            <div class="logo-circle">P</div>
-            <ul class="nav-links">
-                <li><a href="#ventures">Ventures</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact" class="cta-small">Get in Touch</a></li>
-            </ul>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">PANKAJ GOEL</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Work</a>
+                <a href="#contact" class="btn-outline">Enquire</a>
+            </div>
         </div>
     </nav>
 
-    <header class="hero">
-        <div class="hero-content">
-            <h1>CINEMATIC VISION MEETS AI INNOVATION.</h1>
-            <p class="subtitle">PANKAJ: Creative Director | Founder of Loud Dap Ventures</p>
-            <div class="hero-btns">
-                <a href="#ventures" class="btn primary">EXPLORE VENTURES</a>
-                <a href="#contact" class="btn secondary">BOOK CONSULTATION</a>
+    <header class="hero container">
+        <div class="hero-text">
+            <span class="system-status">// SYSTEM ACTIVE: BLINK.EXE</span>
+            <h1>Pankaj Goel</h1>
+            <p class="tagline">Filmmaker • Author • Founder • Creative Technologist</p>
+            <p class="bio">Gathering 30 years of storytelling into code, cinema, and consciousness. Engineering human emotional loops through radio, film, and AI systems.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn-primary">Explore Universe</a>
             </div>
-        </div>
-        <!-- Replace 'sizzle-reel.mp4' with your AI-generated footage -->
-        <div class="hero-video-overlay">
-            <video autoplay muted loop id="hero-vid">
-                <source src="assets/sizzle-reel.mp4" type="video/mp4">
-            </video>
         </div>
     </header>
 
-    <section id="ventures" class="portfolio">
-        <h2 class="section-title">LOUD DAP VENTURES | THE INNOVATION PORTFOLIO</h2>
-        <div class="card-grid">
-            <!-- Project 1: BLINK.EXE -->
-            <div class="card">
-                <div class="card-img" style="background-image: url('assets/blink-thumb.jpg');"></div>
-                <h3>BLINK.EXE - AI Film</h3>
-                <p>Developing hyper-realistic cinematic experiences using advanced AI production pipelines. Currently in production.</p>
-                <a href="#" class="learn-more">Learn More</a>
+    <section id="projects" class="container">
+        <h2 class="section-title">The Multidisciplinary Hub</h2>
+        <div class="bento-grid">
+            <div class="bento-card large">
+                <div class="card-content">
+                    <span class="label">Cinema & AI Direction</span>
+                    <h3>Moving Image</h3>
+                    <p>Grounded realism with AI-led production workflows. Exploring the intersection of Unreal Engine 5.4 and traditional cinematography.</p>
+                    <div class="tags">#NoSmokingZone #NuniekSeries</div>
+                </div>
             </div>
-            <!-- Project 2: OnAndOff -->
-            <div class="card">
-                <div class="card-img" style="background-image: url('assets/onandoff-thumb.jpg');"></div>
-                <h3>ONANDOFF - Incubator</h3>
-                <p>A strategic platform for emerging creators to share and scale cinematic projects within community pods.</p>
-                <a href="#" class="learn-more">Learn More</a>
+            <div class="bento-card">
+                <div class="card-content">
+                    <span class="label">Literature</span>
+                    <h3>BLINK.EXE</h3>
+                    <p>A literary novel exploring consciousness and the question that refuses to close.</p>
+                    <a href="#" class="card-link">Read Synopsis →</a>
+                </div>
             </div>
-            <!-- Project 3: AI Pipeline -->
-            <div class="card">
-                <div class="card-img" style="background-image: url('assets/pipeline-thumb.jpg');"></div>
-                <h3>AI PIPELINE - Masterclass</h3>
-                <p>Consultation services for studios looking to integrate 8k path-traced rendering and identity-locking workflows.</p>
-                <a href="#" class="learn-more">Learn More</a>
+            <div class="bento-card">
+                <div class="card-content">
+                    <span class="label">Venture Studio</span>
+                    <h3>Loud Dap Ventures</h3>
+                    <p>Transforming creative concepts into structured digital products and media assets.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <footer id="contact">
-        <p>&copy; 2026 Loud Dap Ventures Private Limited. All Rights Reserved.</p>
+    <section id="contact" class="container contact-section">
+        <div class="contact-box">
+            <h2>Let's Interface</h2>
+            <p>For publishers, film collaborations, or venture partnerships.</p>
+            <a href="mailto:pankaj@louddap.com" class="btn-primary">Secure Transmission</a>
+        </div>
+    </section>
+
+    <footer class="container">
+        <p>© 2026 Loud Dap Ventures. All systems nominal.</p>
     </footer>
 
 </body>
